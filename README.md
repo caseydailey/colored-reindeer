@@ -1,0 +1,1 @@
+This exercise uses for loops to iterate through two arrays, concatenate each corresponding index and print it to the page. I added some hideous styling for fun.
