@@ -1,0 +1,56 @@
+body {
+	background-color: #009933;
+}
+
+header {
+	color: red;
+}
+
+header p {
+	color green;
+}
+
+li {
+	display: block;
+	padding: 25px;
+	max-width: 25%;
+}
+
+.Blue:hover {
+	color: blue;
+}
+
+
+.Red:hover {
+	color: red;
+}
+
+
+.Orange:hover {
+	color: orange;
+}
+
+
+.Purple:hover {
+	color: purple
+}
+
+
+.Hazel:hover {
+	color: #996633;
+}
+
+
+.Aquamarine:hover {
+	color: aquamarine;
+}
+
+
+.Periwinkle:hover {
+	color: #6600ff;
+}
+
+
+.Azure:hover {
+	color: azure;
+}
