@@ -1,9 +1,11 @@
 body {
-	background-color: #009933;
+	background-color: lime;
 }
 
 header {
 	color: red;
+	font-size: 2em;
+	font-weight: bold;
 }
 
 header p {
@@ -14,43 +16,68 @@ li {
 	display: block;
 	padding: 25px;
 	max-width: 25%;
+
 }
 
 .Blue:hover {
 	color: blue;
+	background-color: white;
+	font-size: 2em;
+	font-weight: bold;
 }
 
 
 .Red:hover {
 	color: red;
+	background-color: white;
+	font-size: 2em;
+	font-weight: bold;
 }
 
 
 .Orange:hover {
 	color: orange;
+	background-color: white;
+	font-size: 2em;
+	font-weight: bold;
 }
 
 
 .Purple:hover {
-	color: purple
+	color: purple;
+	background-color: white;
+	font-size: 2em;
+	font-weight: bold;
 }
 
 
 .Hazel:hover {
 	color: #996633;
+	background-color: white;
+	font-size: 2em;
+	font-weight: bold;
 }
 
 
 .Aquamarine:hover {
 	color: aquamarine;
+	background-color: white;
+	font-size: 2em;
+	font-weight: bold;
 }
 
 
 .Periwinkle:hover {
 	color: #6600ff;
+	background-color: white;
+	font-size: 2em;
+	font-weight: bold;
 }
 
 
 .Azure:hover {
 	color: azure;
+	background-color: white;
+	font-size: 2em;
+	font-weight: bold;
 }
