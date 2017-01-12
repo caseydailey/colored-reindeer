@@ -9,22 +9,22 @@ var reindeers = ["Dasher", "Dancer", "Prancer", "Vixen", "Comet", "Cupid", "Donn
 
 
 
-//and puts them in a new li which is immediately appended to the ul 'deerList
-
+////and puts them in a new li which is immediately appended to the ul 'deerList
+//
 //var deerList = document.getElementById("coloredReindeer");
 //
 ////initializes a for loop (for length of reindeers) 
 //	for (var i = 0; i < reindeers.length; i++) {
 //
 ////makes a place to put the string
-//	var newLi = document.createElement("LI");
+//	var newLi = document.createElement("li");
 //
 ////concatenates colors[i] + " " + reindeers[i] and puts into the li innerText
-//	newLi.innerText=colors[i] + " " + reindeers[i];
+//	newLi.innerHTML = colors[i] + " " + reindeers[i];
 //
 ////puts the li's in the ul
 //	deerList.appendChild(newLi);
-//}
+//};
 
 
 //another possibility might be 
@@ -34,8 +34,7 @@ var deerList = document.getElementById("coloredReindeer");									//get target 
 for (var i = 0; i < reindeers.length; i++) {												//initialize a standard for loop to increment through length of reindeer
 	var coloredReindeer;																	//declare variable store 
 	coloredReindeer = `<li class="${colors[i]}"">${colors[i]}  ${reindeers[i]}</li>`;		//concatenate each iterants value into this string
-	deerList.innerHTML+=coloredReindeer;													//the value string is wrapped in <li> tags and given the class with the value of colors current index
-																							//this will allow me to target each and and style them independently
+	deerList.innerHTML+=coloredReindeer;													//the value string is wrapped in <li> tags and given the class with the value of colors current inde																							//this will allow me to target each and and style them independently
 }
 
 
